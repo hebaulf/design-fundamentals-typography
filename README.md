@@ -5,4 +5,4 @@ For this project I went over the "Learn UI Design Fundamentals" course on scrimb
 I decided to write a technical article about Typography and its fundamentals.
 
 **Here is the article, set up using HTML and CSS:**
-[What is Typography?](https://www.example.com)
+[What is Typography?](https://hebaulf.github.io/design-fundamentals-typography/)
