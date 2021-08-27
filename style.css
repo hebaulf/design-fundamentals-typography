@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+main {
+  height: 100%;
+  margin: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h1 + p {
+  max-width: 600px;
+}
+
+h2 {
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 0.8rem;
+  font-size: 2.3rem;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+h3 {
+  margin-bottom: 0.8rem;
+  color: rgb(66, 66, 66);
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  background: rgb(245, 245, 245);
+  border-left: 10px solid rgb(170, 170, 170);
+  margin-top: 5rem;
+  padding: 3rem 2rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+blockquote:before {
+  content: open-quote;
+  color: rgb(151, 151, 151);
+  font-size: 10rem;
+  line-height: 0.1rem;
+  margin-right: 1.5rem;
+  vertical-align: -2.6rem;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 320px) {
+  img {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 800px) {
+  img {
+    max-width: 80%;
+  }
+}
+
+img.border {
+  border: 1px solid rgb(224, 224, 224);
+}
+
+footer {
+  margin: 3rem;
+  margin-top: 5rem;
+  padding: 2rem 0 3rem;
+  border-top: 1px solid rgb(224, 224, 224);
+}
+
+footer p a {
+  display: block;
+  margin: 1rem 0;
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+footer p a:hover {
+  color: rgb(71, 206, 165);
+}
